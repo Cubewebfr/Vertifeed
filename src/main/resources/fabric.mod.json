@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "vertifeed",
+	"version": "${version}",
+	"name": "Vertifeed",
+	"description": "Renders a second 9:16 Minecraft view with its own FOV and HUD, and publishes it as an NDI® source for Twitch, YouTube Shorts, TikTok, and Instagram Reels while you Game Capture the normal window. Not affiliated with Vizrt NDI AB or Mojang.",
+	"authors": [
+		"Xem",
+		"Cubeweb"
+	],
+	"contact": {
+		"homepage": "https://github.com/Cubewebfr/Vertifeed",
+		"sources": "https://github.com/Cubewebfr/Vertifeed",
+		"issues": "https://github.com/Cubewebfr/Vertifeed/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/vertifeed/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"fr.cubeweb.vertifeed.Vertifeed"
+		],
+		"client": [
+			"fr.cubeweb.vertifeed.VertifeedClient"
+		]
+	},
+	"mixins": [
+		"vertifeed.mixins.json",
+		{
+			"config": "vertifeed.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

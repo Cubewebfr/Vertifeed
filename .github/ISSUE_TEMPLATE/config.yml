@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: NDI Runtime download
+    url: https://ndi.link/NDIRedistV6
+    about: Install this if OBS cannot see the Vertifeed NDI® source.
+  - name: NDI® official site
+    url: https://ndi.video/
+    about: Vertifeed is not affiliated with Vizrt NDI AB. Learn about NDI® here.

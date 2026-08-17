@@ -1,0 +1,31 @@
+Vertifeed
+==========
+
+Copyright (c) 2026 Cubeweb
+Licensed under the MIT License. See LICENSE.
+
+Third-party notices
+-------------------
+
+### Devolay (me.walkerknapp:devolay)
+
+Copyright Walker Knapp and contributors.
+Licensed under the Apache License, Version 2.0.
+https://github.com/WalkerKnapp/devolay
+
+A copy of the Apache License 2.0 is available at:
+https://www.apache.org/licenses/LICENSE-2.0
+
+### NDI®
+
+NDI® is a registered trademark of Vizrt NDI AB.
+https://ndi.video/
+
+Vertifeed uses the NDI® runtime installed on the user’s system. It does not
+redistribute NDI Tools. Install the NDI Runtime from:
+https://ndi.link/NDIRedistV6
+
+Vertifeed is not affiliated with, endorsed by, or sponsored by Vizrt NDI AB,
+NewTek, Inc., Mojang Studios, Microsoft Corporation, Twitch Interactive,
+Google / YouTube, ByteDance / TikTok, Meta / Instagram, OBS Project, or
+DistroAV.

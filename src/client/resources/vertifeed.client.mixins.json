@@ -1,0 +1,31 @@
+{
+	"required": true,
+	"package": "fr.cubeweb.vertifeed.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"AbstractContainerScreenMixin",
+		"AbstractRecipeBookScreenMixin",
+		"CameraMixin",
+		"GuiGraphicsExtractorMixin",
+		"RecipeBookComponentMixin",
+		"OverlayRecipeComponentMixin",
+		"RecipeBookPageMixin",
+		"GameModeSwitcherScreenMixin",
+		"GameRendererMixin",
+		"GuiMixin",
+		"LevelRendererMixin",
+		"MinecraftMixin",
+		"MouseHandlerMixin",
+		"PauseScreenMixin",
+		"SectionOcclusionGraphMixin",
+		"SkyRendererMixin",
+		"WindowMixin"
+	],
+	"remap": false,
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
